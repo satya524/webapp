@@ -19,7 +19,7 @@ public class controller {
 	@GetMapping(value = "/API1", produces = {"Application/json"})
 
 	public String save() {
-		return "satya";
+		return "satya1";
 	}
 	
 	@GetMapping(value="/getRecords",produces = "application/json")
