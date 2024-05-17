@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class controller {
 	@Autowired
 	private JdbcTemplate jdbctemplate;
-	@GetMapping(value = "/API", produces = {"Application/json"})
+	@GetMapping(value = "/API1", produces = {"Application/json"})
 
 	public String save() {
 		return "satya";
